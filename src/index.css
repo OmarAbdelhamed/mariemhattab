@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+
+@theme {
+  --Main: #626A48;
+}
+
+@font-face {
+  font-family: 'CustomFont'; /* Name your font family */
+  src: url('/assets/alfont_com_AlFont_com_29LTRiwaya-Regular-1.ttf'); /* Locate the .ttf file within your directory*/
+}
+
+:root {
+ font-family: 'CustomFont', sans-serif;
+ -webkit-font-smoothing: antialiased ;
+ font-variant-ligatures: common-ligatures;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F0EB;
+  overflow-x: hidden;
+  font-variant-ligatures: common-ligatures;
+}
+
+svg {
+  shape-rendering: crispEdges;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  svg {
+    will-change: transform;
+    shape-rendering: geometricPrecision;
+  }
+}
+
+
+button {
+  shape-rendering: geometricPrecision;
+}
