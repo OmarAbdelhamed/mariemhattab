@@ -36,7 +36,7 @@ const Contact = ({ contactRef }) => {
     <div
       ref={contactRef}
       id='contact'
-      className='flex flex-col h-auto items-center px-4 md:px-[70px] py-[30px]'
+      className=' w-screen flex flex-col h-auto items-center px-4 md:px-[70px] py-[30px]'
     >
       <img
         className='size-[50px] md:size-[70px] mb-[10px]'

@@ -3,7 +3,7 @@ import CardButton from '../utils/CardButton';
 
 const Consult = ({ contactRef }) => {
   return (
-    <div className=' flex flex-col bg-(--Main) items-center justify-center px-[195px] py-[90px] my-[145px] h-auto'>
+    <div className='w-screen flex flex-col bg-(--Main) items-center justify-center px-[195px] py-[90px] my-[145px] h-auto'>
       <img
         className='w-[70px] h-[70px] items-center'
         src='/assets/256.png'

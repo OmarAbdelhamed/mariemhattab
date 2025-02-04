@@ -4,7 +4,7 @@ import { IoMailOutline, IoLogoInstagram } from 'react-icons/io5';
 
 const Footer = ({ mainRef, whoamiRef, servicesRef, packsRef, contactRef }) => {
   return (
-    <footer className='flex flex-col items-center h-auto md:h-[235px] justify-between w-full bg-[#626A48] pt-[30px]'>
+    <footer className='w-screen flex flex-col items-center h-auto md:h-[235px] justify-between w-full bg-[#626A48] pt-[30px]'>
       {/* Main Content */}
       <div className='flex flex-col md:flex-row justify-between items-center gap-[20px] md:gap-[50px] w-full max-w-[690px] px-4 md:px-0 h-auto md:h-[100px]'>
         {/* Sections */}

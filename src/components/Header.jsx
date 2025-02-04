@@ -6,7 +6,7 @@ const Header = ({ mainRef, whoamiRef, servicesRef, packsRef, contactRef }) => {
 
   return (
     <>
-      <div className='h-[70px] max-w-[1380px] min-mx-[50px] w-screen mx-auto flex items-center justify-between bg-white py-[12px] px-[32px] mt-[17px] rounded-[8px]'>
+      <div className='w-screen h-[70px] max-w-[1380px] min-mx-[50px] mx-auto flex items-center justify-between bg-white py-[12px] px-[32px] mt-[17px] rounded-[8px]'>
         <h1 className='text-[24px] xl:text-[32px] text-(--Main)'>
           حَطَّابْ مَريَم البَتُولْ
         </h1>

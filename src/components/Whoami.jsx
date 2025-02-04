@@ -7,7 +7,7 @@ const Whoami = ({whoamiRef}) => {
   
   return (
     <div
-      className=' w-screen mt-[150px] flex flex-col md:flex-row gap-[40px] justify-center md:justify-between items-center h-auto md:h-[600px] px-6 md:px-[136px] max-w-[1380px] mx-auto py-10 md:py-0 '
+      className=' w-screen mt-[150px] flex flex-col md:flex-row gap-[40px] justify-center md:justify-center items-center h-auto md:h-[600px] px-6 md:px-[136px] max-w-[1380px] mx-auto py-10 md:py-0 '
       id='whoami'
       ref={whoamiRef}
     >

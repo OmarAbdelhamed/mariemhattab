@@ -6,7 +6,7 @@ const Packs = ({ packsRef }) => {
     <div
       ref={packsRef}
       id='packs'
-      className='flex flex-col bg-(--Main) items-center justify-center px-4 md:px-[385px] py-[50px] md:py-[110px] my-[50px] md:my-[145px]  h-auto md:h-[775px]'
+      className=' w-screen flex flex-col bg-(--Main) items-center justify-center px-4 md:px-[385px] py-[50px] md:py-[110px] my-[50px] md:my-[145px]  h-auto md:h-[775px]'
     >
       <img
         className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] mb-[20px] md:mb-[30px]'
@@ -17,7 +17,7 @@ const Packs = ({ packsRef }) => {
         الباقاتْ
       </h1>
 
-      <div className='flex flex-col md:flex-row items-center px-[20px] lg:p-0 w-screen md:items-end justify-center md:justify-between gap-[20px] md:gap-[10px] lg:gap-[85px] lg:w-full max-w-[990px]'>
+      <div className='flex flex-col  md:flex-row items-center px-[20px] lg:p-0 w-screen lg:items-center lg:justify-center md:items-end justify-center md:justify-between gap-[20px] md:gap-[10px] lg:gap-[85px] lg:w-full max-w-[990px]'>
         <PacksCard
           title='جلسة إستشارية'
           sub='المدة 60 دقيقة'

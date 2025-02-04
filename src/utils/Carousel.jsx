@@ -62,10 +62,10 @@ const Carousel = ({ data }) => {
     <div
       onMouseEnter={handleHover}
       onMouseLeave={handleMouseLeave}
-      className='flex flex-col items-center justify-center'
+      className='flex flex-col items-center max-sm:w-[300px] w-screen justify-center'
     >
       {/* Carousel Slides */}
-      <div className='flex gap-[250px] mb-[40px] justify-center'>
+      <div className='flex gap-[250px] mb-[40px] overflow-hidden   justify-center'>
         {data.map((item, idx) => (
           <div
             key={idx}

@@ -6,7 +6,7 @@ const Opinions = () => {
     <div className=' flex flex-col items-center justify-center place-items-center'>
       <img className='w-[70px] h-[70px] items-center' src='/assets/opinions icon.png' alt='' />
       <h1 className='text-[48px] text-(--Main) mb-[77px]'>آراء المستفيدين</h1>
-      <div>
+      <div className=" overflow-x-hidden max-sm:w-[300px] ">
         <Carousel data={messages} />
       </div>
     </div>
