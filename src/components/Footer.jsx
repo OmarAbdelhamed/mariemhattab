@@ -93,8 +93,8 @@ const Footer = ({ mainRef, whoamiRef, servicesRef, packsRef, contactRef }) => {
 
       {/* Footer Bottom */}
       <div className='w-full flex flex-col items-center justify-end mt-[20px] md:mt-0'>
-        <hr className='w-full h-[1px]  bg-white border-0 opacity-80' />
-        <div className='flex flex-row md:flex-row items-center justify-center h-[50px] md:h-[75px] gap-[5px] md:gap-0'>
+        <hr className='w-full h-[1px]  bg-white border-0 opacity-50' />
+        <div className='flex flex-row md:flex-row items-center justify-center h-[40px] md:h-[50px] gap-[5px] md:gap-0'>
           <p className='text-[14px] md:text-[18px] text-slate-200 subpixel-antialiased'>
             حَطَّابْ مَريَم البَتُولْ 2025 © 
           </p>
