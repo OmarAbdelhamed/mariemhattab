@@ -69,7 +69,7 @@ const Carousel = ({ data }) => {
         {data.map((item, idx) => (
           <div
             key={idx}
-            className='w-[250px] h-auto p-[20px] sm:w-[640px] sm:h-[185px] bg-white flex items-center text-center rounded-[15px] opacity-90 drop-shadow-md transition-transform duration-500 ease-in-out'
+            className='w-[250px] h-auto p-[20px] sm:w-[640px] sm:h-[185px] bg-white flex items-center text-center rounded-[15px] opacity-90 shadow-md transition-transform duration-500 ease-in-out'
             style={{
               transform: `translateX(${translateValue}%)`, // Corrected transform calculation
             }}
