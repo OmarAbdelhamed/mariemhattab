@@ -4,7 +4,7 @@ import { IoMailOutline, IoLogoInstagram } from 'react-icons/io5';
 
 const Footer = ({ mainRef, whoamiRef, servicesRef, packsRef, contactRef }) => {
   return (
-    <footer className='w-screen flex flex-col items-center h-auto md:h-[235px] justify-between w-full bg-[#626A48] pt-[30px]'>
+    <footer className=' flex flex-col items-center h-auto md:h-[235px] justify-between w-full bg-[#626A48] pt-[30px]'>
       {/* Main Content */}
       <div className='flex flex-col md:flex-row justify-between items-center gap-[20px] md:gap-[50px] w-full max-w-[690px] px-4 md:px-0 h-auto md:h-[100px]'>
         {/* Sections */}
@@ -95,10 +95,10 @@ const Footer = ({ mainRef, whoamiRef, servicesRef, packsRef, contactRef }) => {
       <div className='w-full flex flex-col items-center justify-end mt-[20px] md:mt-0'>
         <hr className='w-full h-[1px]  bg-white border-0 opacity-80' />
         <div className='flex flex-row md:flex-row items-center justify-center h-[50px] md:h-[75px] gap-[5px] md:gap-0'>
-          <p className='text-[15px] md:text-[18px] text-slate-200 subpixel-antialiased'>
+          <p className='text-[14px] md:text-[18px] text-slate-200 subpixel-antialiased'>
             حَطَّابْ مَريَم البَتُولْ 2025 © 
           </p>
-          <p className='text-[15px] md:text-[18px] mr-[3px] text-slate-200 antialiased'>
+          <p className='text-[14px] md:text-[18px] mr-[3px] text-slate-200 antialiased'>
             | &nbsp;موقع &nbsp;تطوير&nbsp;&nbsp; <a href='https://www.dev-omar.com' target='_blank' rel='noopener noreferrer' className='underline hover:text-blue-600'>عمــر أبوالسعود</a>
           </p>
         </div>

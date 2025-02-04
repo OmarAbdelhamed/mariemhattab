@@ -56,20 +56,20 @@ const Carousel = ({ data }) => {
 
   // Calculate transform value dynamically based on screen width
   const translateValue =
-    -(currentSlide - 1.5) * (windowWidth >= 640 ? 140 : 180);
+    -(currentSlide - 1.5) * (windowWidth >= 640 ? 140 : 200);
 
   return (
     <div
       onMouseEnter={handleHover}
       onMouseLeave={handleMouseLeave}
-      className='flex flex-col items-center max-sm:w-[300px] w-screen justify-center'
+      className='flex flex-col items-center w-screen justify-center'
     >
       {/* Carousel Slides */}
-      <div className='flex gap-[250px] mb-[40px] overflow-hidden   justify-center'>
+      <div className='flex gap-[250px] mb-[40px]  justify-center'>
         {data.map((item, idx) => (
           <div
             key={idx}
-            className='w-[300px] h-auto p-[20px] sm:w-[640px] sm:h-[185px] bg-white flex items-center text-center rounded-[15px] opacity-90 drop-shadow-md transition-transform duration-500 ease-in-out'
+            className='w-[250px] h-auto p-[20px] sm:w-[640px] sm:h-[185px] bg-white flex items-center text-center rounded-[15px] opacity-90 drop-shadow-md transition-transform duration-500 ease-in-out'
             style={{
               transform: `translateX(${translateValue}%)`, // Corrected transform calculation
             }}

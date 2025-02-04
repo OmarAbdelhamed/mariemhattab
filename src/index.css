@@ -45,3 +45,11 @@ svg {
 button {
   shape-rendering: geometricPrecision;
 }
+
+/* when >= 640px root width forced to screen width with overflow hidden */
+@media (min-width: 640px) {
+  :root{
+    width: 100vw !important;
+    overflow-x: hidden;
+  }
+}

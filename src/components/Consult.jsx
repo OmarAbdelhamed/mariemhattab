@@ -3,7 +3,7 @@ import CardButton from '../utils/CardButton';
 
 const Consult = ({ contactRef }) => {
   return (
-    <div className='w-screen flex flex-col bg-(--Main) items-center justify-center px-[195px] py-[90px] my-[145px] h-auto'>
+    <div className=' flex flex-col bg-(--Main) items-center justify-center px-[195px] py-[90px] my-[145px] h-auto'>
       <img
         className='w-[70px] h-[70px] items-center'
         src='/assets/256.png'
@@ -13,7 +13,7 @@ const Consult = ({ contactRef }) => {
         الإستشارات النفسِّية
       </h1>
 
-      <div className='flex md:flex-row sm:flex-col max-sm:flex-col items-end md:w-[700px] lg:w-[990px] h-auto justify-between'>
+      <div className='flex md:flex-row sm:flex-col max-sm:flex-col sm:items-center md:items-end md:w-[700px] lg:w-[990px] h-auto justify-between'>
         <div className='flex flex-col max-sm:mb-[20px] sm:mb-[20px] items-center justify-center text-center max-w-[175px] '>
           <h1 className='text-[28px] md:text-[32px] text-white '>
             إستشارة في المكتب
