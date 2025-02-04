@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import Main from './components/main';
+import Main from './components/Main';
 import Whoami from './components/Whoami';
 import ObjectSvg from '../public/assets/Object.svg?react';
 import Object2Svg from '../public/assets/Object2.svg?react';
@@ -7,7 +7,7 @@ import Consult from './components/Consult';
 import Services from './components/Services';
 import Opinions from './components/Opinions';
 import Packs from './components/Packs';
-import Contact from './components/contact';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { useRef } from'react';
 function App() {
